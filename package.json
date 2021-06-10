@@ -1,0 +1,27 @@
+{
+  "name": "shortlistofcolors",
+  "version": "1.0.0",
+  "description": "List of colors parsed from [wikipedia](https://en.wikipedia.org/wiki/List_of_colors_(compact))",
+  "main": "parse.js",
+  "scripts": {
+    "parse": "nightwatch parse.js",
+    "test": "nightwatch tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmamba/ShortListOfColors.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmamba/ShortListOfColors/issues"
+  },
+  "homepage": "https://github.com/rmamba/ShortListOfColors#readme",
+  "dependencies": {
+    "nightwatch": "^1.6.4",
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {
+    "geckodriver": "^2.0.0"
+  }
+}
